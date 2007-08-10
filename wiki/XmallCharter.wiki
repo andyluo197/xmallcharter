@@ -1,0 +1,62 @@
+#labels Featured,Phase-Deploy,NewVersion
+Version 0.3 released.
+
+= Introduction =
+
+XmallCharter  -- draw charts from XML data
+==================================
+
+XmallCharter is a simple report designer. 
+It's developed as a convenient tool for design simple charts like Bar, Pie, Area and Line. 
+Using Java as a platform-independent base, XML as a universal data format. 
+It supports Undo and Redo functions. It's based on the JFreeChart library.
+
+Enjoy your design of Outstanding Charts.
+Have fun.
+
+More information from http://sourceforge.net/projects/xmallcharter
+
+Version: 0.3
+
+Depends on: jfreechart-1.0.0-pre1.jar, jcommon-1.0.0-pre1.jar, dom4j-1.5.2.jar, jaxen-1.1-beta-4.jar
+
+Files:
+Executable Jar: xmallcharter-<date>.jar
+Source Jar: xmallcharter-src-<date>.jar
+
+
+= Changes =
+
+XmallCharter 0.3 --- Changes
+===================================
+Refactor the code to fit for a Java Web Start launch.
+Integrate external resources like images and help htmls into jar file.
+Change png images to jpg images reduce about 300k space, less time to download.
+
+Now there are 100% jars, for specific, 5 jars and no external resources needed.
+
+XmallCharter 0.2.3 --- Changes
+===================================
+Format the xml file of chart sollution.
+Remove useless comments.
+Change some classes' name to clarify their use.
+Refactor ChartController and XmallFrame to prevent direct fields access.
+
+XmallCharter 0.2.2 --- Changes
+===================================
+Fix a bug on processing local chinese data.
+
+XmallCharter 0.2.1 --- Changes
+===================================
+Fix some bugs with the data table.
+Change FONT to small style
+
+XmallCharter 0.2 --- Changes
+===================================
+
+Add international locale support for Chinese & English.
+Add frame resizable function.
+Now we can start design without new a project.
+Fix some small bugs.
+
+Have fun.
