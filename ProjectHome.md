@@ -1,0 +1,1 @@
+XmallCharter is a report designer. It's convenient for designing charts like Bar, Pie, Area and Line. Using Java as a platform-independent base, XML as a universal data format. It supports Undo and Redo functions. It's based on the JFreeChart library.
